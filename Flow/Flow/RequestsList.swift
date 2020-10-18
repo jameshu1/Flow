@@ -10,16 +10,22 @@ import SwiftUI
 
 struct RequestsList: View {
     var body: some View {
-        List(allReqs) { request in
-            RequestRow(request: request)
+        NavigationView {
+            List(allReqs) { request in
+                NavigationLink(
+                    destination: DetailView(request: request)) {
+                        RequestRow(request: request)
+                    }
+            }
+            .navigationBarTitle("My Requests")
         }
+        
     }
 }
 
 struct RequestsList_Previews: PreviewProvider {
     static var previews: some View {
         RequestsList()
-            .padding(.top, 60)
     }
 }
 
@@ -38,6 +44,7 @@ struct RequestRow: View {
             VStack(alignment: .leading) {
                 Text(request.product)
                     .font(.system(size: 21, weight: .medium, design: .default))
+                Text(request.status)
                 Text(request.name)
             }
                 

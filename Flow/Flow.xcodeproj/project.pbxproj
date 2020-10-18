@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		11FABCD2253BB226004E34C3 /* RequestsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FABCD1253BB226004E34C3 /* RequestsList.swift */; };
 		11FABCEA253BCD61004E34C3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FABCE9253BCD61004E34C3 /* Request.swift */; };
+		11FABCEF253BCF6E004E34C3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FABCEE253BCF6E004E34C3 /* DetailView.swift */; };
 		785C2143253BAC8F00A815A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C2142253BAC8F00A815A1 /* AppDelegate.swift */; };
 		785C2145253BAC8F00A815A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C2144253BAC8F00A815A1 /* SceneDelegate.swift */; };
 		785C2147253BAC8F00A815A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C2146253BAC8F00A815A1 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		11FABCD1253BB226004E34C3 /* RequestsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsList.swift; sourceTree = "<group>"; };
 		11FABCE9253BCD61004E34C3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		11FABCEE253BCF6E004E34C3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		785C213F253BAC8F00A815A1 /* Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		785C2142253BAC8F00A815A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		785C2144253BAC8F00A815A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				785C2144253BAC8F00A815A1 /* SceneDelegate.swift */,
 				785C2146253BAC8F00A815A1 /* ViewController.swift */,
 				11FABCD1253BB226004E34C3 /* RequestsList.swift */,
+				11FABCEE253BCF6E004E34C3 /* DetailView.swift */,
 				11FABCE9253BCD61004E34C3 /* Request.swift */,
 				785C2148253BAC8F00A815A1 /* Main.storyboard */,
 				785C214E253BAC9100A815A1 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 				785C2147253BAC8F00A815A1 /* ViewController.swift in Sources */,
 				11FABCEA253BCD61004E34C3 /* Request.swift in Sources */,
 				785C214D253BAC8F00A815A1 /* Flow.xcdatamodeld in Sources */,
+				11FABCEF253BCF6E004E34C3 /* DetailView.swift in Sources */,
 				785C2143253BAC8F00A815A1 /* AppDelegate.swift in Sources */,
 				11FABCD2253BB226004E34C3 /* RequestsList.swift in Sources */,
 				785C2145253BAC8F00A815A1 /* SceneDelegate.swift in Sources */,
